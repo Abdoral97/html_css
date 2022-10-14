@@ -31,14 +31,15 @@
 body {
     background-color: antiquewhite ;
     font-family: var(--fonte-padrao);
-    text-align: justify;    
+      
 }
 a.externo::after{
     content: '\1F517';
 
 }
 p{
-   margin: 15px 00px 15px 00px; 
+   margin: 15px 00px 15px 00px;
+   text-align: justify;   
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
