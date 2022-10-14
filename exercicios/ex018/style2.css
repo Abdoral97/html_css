@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'schooll' ;
+    src: url('font/MagicSchoolOne.ttf') format('truetype');
+    font-weight: normal;    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: schooll;
+    font-size: 3em;
+    font-weight:normal;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}

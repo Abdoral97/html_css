@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    text-align: justify;
+
+    background-color:black ;
+
+    color: rgb(0, 0, 0);
+
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+
+    font-size: 1em ;
+    font-weight:lighter ;
+    
+    
+    
+
+    /*Medidas absolutas: cm, mm, in (polegada), px, pt, pc*/
+
+    /*Medidas relativas: em, ex, rem, vw, vh, %*/
+
+    /*As recomendaçães para o uso de fonte é o "px" e "em""*/
+
+    /*16px = 1em*/
+}
+
+h1 {
+    
+    font-size: 3em;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 02px 03px 03px rgba(0, 0, 0, 0.432);
+
+    font: italic bold 3em Georgia, 'Times New Roman', Times, serif;
+    /*ShortHand - é incrivel, pesquise mais e aprenda a usar.*/   
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1.6em;
+    font-style: italic;
+}
+
