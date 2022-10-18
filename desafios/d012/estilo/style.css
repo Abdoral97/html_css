@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -7,6 +15,7 @@
 html, body {/*CORPO*/
     min-height: 100vh;/*dar uma olhada aqui depois*/
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header{/*CABEÇALHO*/
@@ -17,6 +26,8 @@ header{/*CABEÇALHO*/
 header h1{/*TITULO CARBEÇALHO*/
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 8vw;
 }
 header p {/*PARAGRAFO CABERÇALHO*/
     padding-bottom: 50px;
@@ -35,6 +46,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 section.normal{/*CORDEL, ARTICLE*/
     background-color: rgb(255, 255, 255);
@@ -45,8 +58,10 @@ section.imagem{/*CORDEL COM IMAGEM, ARTICLE*/
     color: white;
 }
 section.imagem > p{/*CORDEL COM IMAGEM, ARTICLE, PARAGRAFO*/
-    width: 400px;
+    display: inline-block;
+    padding: 1vw;
     background-color: rgba(0, 0, 0, 0.219);
+    margin-left: -15px;
 }
 
 footer{/*RODAPÉ*/
