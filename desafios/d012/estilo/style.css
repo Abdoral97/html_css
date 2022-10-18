@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body {/*CORPO*/
+    min-height: 100vh;/*dar uma olhada aqui depois*/
+    background-color: darkgray;
+}
+
+header{/*CABEÇALHO*/
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{/*TITULO CARBEÇALHO*/
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header p {/*PARAGRAFO CABERÇALHO*/
+    padding-bottom: 50px;
+}
+header a, footer a {/*LINKS CABEÇALHO, RODAPÉ*/
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{/*LINKS "Ao passar o mouse."*/
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{/*CORDEL, ARTICLE*/
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+section.imagem{/*CORDEL COM IMAGEM, ARTICLE*/
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+section.imagem > p{/*CORDEL COM IMAGEM, ARTICLE, PARAGRAFO*/
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+footer{/*RODAPÉ*/
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
