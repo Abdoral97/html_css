@@ -41,13 +41,16 @@ header a:hover, footer a:hover{/*LINKS "Ao passar o mouse."*/
     text-decoration: underline;
 }
 
-section{
+section{/*SEÇÃO*/
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+}
+section p{/*SEÇÃO, PARAGRAFO*/
+    padding-bottom: 2em;
 }
 section.normal{/*CORDEL, ARTICLE*/
     background-color: rgb(255, 255, 255);
@@ -56,12 +59,26 @@ section.normal{/*CORDEL, ARTICLE*/
 section.imagem{/*CORDEL COM IMAGEM, ARTICLE*/
     background-color: rgb(49, 48, 48);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+    background-attachment: fixed;
 }
 section.imagem > p{/*CORDEL COM IMAGEM, ARTICLE, PARAGRAFO*/
     display: inline-block;
     padding: 1vw;
-    background-color: rgba(0, 0, 0, 0.219);
-    margin-left: -15px;
+    background-color: rgba(0, 0, 0, 0.514);
+    margin-left: -7px;
+    text-shadow: 01px 01px 00px rgba(0, 0, 0, 0.493);
+}
+section#img01{/*SEÇÃO, IMAGEM, ID*/
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-position: center, right;
+    
+}
+section#img02{/*SEÇÃO, IMAGEM, ID*/
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+    background-position: right, center;
 }
 
 footer{/*RODAPÉ*/
