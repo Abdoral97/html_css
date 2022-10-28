@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #form01{
+            background-image: linear-gradient(to right,darkorange, darkred 170% );
+            padding: 5px;
+            padding-left: 0px;
+            width: 300px;
+            border-radius: 15px;
+            
+        }
+        #botao-envia{
+            text-align: center;
+        }
+        #nome{
+            text-align: center;
+        }
+        #senha{
+            text-align: center;
+            position: relative;
+            left: 05px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="" method="post" autocomplete="on" id="form01">
+        <p id="nome">
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="20" placeholder="Nome" autocomplete="username"><!--REQUERIDO OU OBRIGATÓRIO-->
+            <!--required minlength="5" maxlength="15" FUNÇÃO QUE IRÁ LIMITAR O NUMERO DE CARACTERES NO MINIMO 5 E NO MAXIMO 15-->
+        </p>
+        <p id="senha">
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="8" max="25" size="20"placeholder="Senha" autocomplete="current-password" ><!--REQUERIDO OU OBRIGATÓRIO-->
+        </p>
+        <p id="botao-envia">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
