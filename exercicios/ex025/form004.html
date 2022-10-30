@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    
+    <form action="#" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <P>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required maxlength="3" placeholder="Nome">
+            </P>
+            <p>
+                <label for="imail">Email</label>
+                <input type="email" name="mail" id="imail" required placeholder="Email" autocomplete="email">
+            </p>
+            <p>
+                <label for="itele">Telefone</label>
+                <input type="tel" name="tele" id="itele" autocomplete="tel" required pattern="^\(\d{2}\)[0-9]{4,5}-[0-9]{4,5}$" placeholder="(xx) xxxx-xxxx">
+            </p>
+        </fieldset>
+        <!--ESTUDAR MAIS SOBRE Regs--> <!--MUITO IMPORTANTE-->
+        <!--ESTUDAR SOBRE VALIDAÇÕES DE DADOS EM JAVASCRIPT-->
+        <p>
+            <input type="submit" value="Envia">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
